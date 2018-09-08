@@ -31,22 +31,24 @@ To install
 ----------
 
 (recommended) use node version 6.11.0
-
+```
 `python setup.py install`
 `python manage.py makemigrations`
 `python manage.py migrate`
 `python manage.py calculate_score`
 `npm install`
 `npm run webpack`
-
+```
 To run
 ------
+```
 `python manage.py runserver --nothreading --noreload`
-
+```
 Run with Docker 
 ---------------
 
 Install Docker
-
+```
 `rebuild.sh`
 `run.sh`
+```
